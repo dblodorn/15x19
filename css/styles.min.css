@@ -89,7 +89,7 @@ video {
     font-family: Courier New, Courier, monospace;
     font-size: 100%;
     font-weight: 200;
-    vertical-align: baseline
+    vertical-align: baseline;
 }
 
 article,
@@ -103,21 +103,21 @@ hgroup,
 menu,
 nav,
 section {
-    display: block
+    display: block;
 }
 
 body {
-    line-height: 1
+    line-height: 1;
 }
 
 ol,
 ul {
-    list-style: none
+    list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none
+    quotes: none;
 }
 
 blockquote:after,
@@ -125,30 +125,30 @@ blockquote:before,
 q:after,
 q:before {
     content: '';
-    content: none
+    content: none;
 }
 
 table {
     border-collapse: collapse;
-    border-spacing: 0
+    border-spacing: 0;
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 body {
     margin: 0;
     padding: 0 0 200px;
     height: 100%;
-    width: 100%
+    width: 100%;
 }
 
 *,
 :after,
 :before {
     box-sizing: border-box;
-    outline: 0
+    outline: 0;
 }
 
 .lg-italic,
@@ -161,7 +161,7 @@ h5,
 p,
 ul.header-nav li a {
     font-family: Courier New, Courier, monospace;
-    font-weight: 400
+    font-weight: 400;
 }
 
 a,
@@ -172,23 +172,23 @@ h4,
 h5,
 p,
 ul.header-nav li a {
-    font-style: normal
+    font-style: normal;
 }
 
 .lg-italic {
-    font-style: italic!important
+    font-style: italic!important;
 }
 
 a,
 p {
     font-size: .71em;
-    line-height: 1
+    line-height: 1;
 }
 
 ul.header-nav li a {
     font-size: .71em;
     line-height: 2;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .btn {
@@ -202,24 +202,24 @@ ul.header-nav li a {
     z-index: 9999;
     color: #888;
     text-align: center;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .btn:hover {
     text-decoration: line-through;
-    border-color: #e01616
+    border-color: #e01616;
 }
 
 .btn:active,
 .btn:focus,
 .btn:visited {
     border-color: #cecece;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .btn:link {
     -webkit-tap-highlight-color: #d7de15;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .title-container {
@@ -231,26 +231,26 @@ ul.header-nav li a {
     text-align: left;
     padding-left: 20px;
     z-index: 9999;
-    opacity: 0
+    opacity: 0;
 }
 
 img.title {
     display: inline-block;
     text-align: left;
-    width: 300px
+    width: 300px;
 }
 
 .container {
     padding-top: 90px;
     max-width: 660px;
     margin: 0 auto;
-    opacity: 0
+    opacity: 0;
 }
 
 .container:after {
     content: "";
     display: table;
-    clear: both
+    clear: both;
 }
 
 .painting {
@@ -259,7 +259,7 @@ img.title {
     float: left;
     padding: 20px;
     width: 100%;
-    text-align: center
+    text-align: center;
 }
 
 .painting p {
@@ -269,7 +269,7 @@ img.title {
     display: inline-block;
     text-transform: uppercase;
     padding: 6px 12px 4px;
-    color: #888
+    color: #888;
 }
 
 .painting img {
@@ -283,50 +283,50 @@ img.title {
     position: relative;
     display: inline-block;
     width: 0;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .painting .buy-btn form {
     height: 25px;
-    display: none
+    display: none;
 }
 
 .painting .buy-btn form img {
     top: 0;
-    position: absolute
+    position: absolute;
 }
 
 @media only screen and (min-width:1240px) {
     .container {
-        padding-top: 0
+        padding-top: 0;
     }
     .painting p {
-        margin-left: 8%
+        margin-left: 8%;
     }
     .painting .buy-btn {
-        margin-right: 8%
+        margin-right: 8%;
     }
     img.title {
-        width: 400px
+        width: 400px;
     }
 }
 
 @media only screen and (min-width:1280px) {
     .container {
-        max-width: 1280px
+        max-width: 1280px;
     }
     img.title {
-        width: 650px
+        width: 650px;
     }
     .painting {
-        width: 50%
+        width: 50%;
     }
 }
 
 .transition {
-    transition: all 1.2s ease
+    transition: all 1.2s ease;
 }
 
 .transition-slow {
-    transition: all 2s ease
+    transition: all 2s ease;
 }
